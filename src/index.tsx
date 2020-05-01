@@ -1,7 +1,8 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
+import { MainPage } from './containers';
 
 ReactDOM.render(
-    <h1>Hello, world!</h1>,
+    <MainPage />,
     document.getElementById('root')
 );
